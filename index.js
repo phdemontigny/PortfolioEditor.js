@@ -1,0 +1,43 @@
+StartNewMenu("Left-Menu");
+	SetMenuTitle("MEI KAZAMA");
+	AddPageLink("recent work","Test Page");
+	AddSubPageLink("sub link","Homepage");
+	AddPageLink("testing","Large Image");
+EndMenu();
+
+StartNewPage("Homepage");
+	AddVerticalSpacing(3);
+	StartNewTable(2);
+		AddImageToTable("business_stock_photo.jpg","test",180,180);
+		AddTextToTable("Testing...",1);
+		AddImageToTable("business_stock_photo.jpg","test",180,180);
+		AddImageToTable("business_stock_photo.jpg","test",180,180);
+		AddImageToTable("business_stock_photo.jpg","test",180,180);
+	EndTable();
+	AttachMenu("Left-Menu");
+EndPage();
+
+StartNewPage("Large Image");
+	AddVerticalSpacing(3);
+	AddImageToPage("business_stock_photo.jpg","test",1000,1000);
+	AddVerticalSpacing(3);
+	AddTextToPage("Mei Kazama pursued a project on street art in the summer of 2014 upon receiving the Charles Millard Summer Travel Fellowship from Williams College. She visited various countries within Europe over the course of eight weeks to better understand the interplay between artworks and their environment, and the role that a space has in strengthening and furthering artistic expression. The project culminated in her creating her own street art in Berlin. More can be found on her extensive (and still active) blog, From Point Mei to Point B. ");
+	AddVerticalSpacing(2);
+	AttachMenu("Left-Menu");
+EndPage();
+
+StartNewPage("Test Page");
+	AddVerticalSpacing(3);
+	StartNewTable(4);
+		AddImageToTable("business_stock_photo.jpg","test",180,180);
+		AddImageToTable("business_stock_photo.jpg","test",180,180);
+		AddImageToTable("business_stock_photo.jpg","test",180,180);
+		AddImageToTable("business_stock_photo.jpg","test",180,180);
+		AddImageToTable("business_stock_photo.jpg","test",180,180);
+		AddImageToTable("business_stock_photo.jpg","test",180,180);
+		AddImageToTable("business_stock_photo.jpg","test",180,180);
+		AddImageToTable("business_stock_photo.jpg","test",180,180);
+		AddTextToTable("Mei Kazama pursued a project on street art in the summer of 2014 upon receiving the Charles Millard Summer Travel Fellowship from Williams College. She visited various countries within Europe over the course of eight weeks to better understand the interplay between artworks and their environment, and the role that a space has in strengthening and furthering artistic expression. The project culminated in her creating her own street art in Berlin. More can be found on her extensive (and still active) blog, From Point Mei to Point B. ",3);
+	EndTable();
+	AttachMenu("Left-Menu");
+EndPage();

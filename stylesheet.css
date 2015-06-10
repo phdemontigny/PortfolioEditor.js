@@ -1,0 +1,161 @@
+/* CSS Reset */
+* {
+    margin: 0; 
+    padding: 0
+}
+
+html {
+    font-size: 80%;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 1.4em;
+    line-height: 1.5;
+
+    /* For fixing the sidebar position*/
+    height: 100%;
+    overflow-y: auto
+}
+
+img {
+
+    /*max-height: 180px;
+    max-width: 180px; */ 
+    height:auto;
+}
+
+img.full-page {
+
+    /*max-width: 1000px;
+    max-height: 1000px;*/
+    width:auto 
+}
+
+.icon {
+
+    text-align: center;
+    vertical-align: bottom;
+    padding-right: 40px;
+    padding-bottom: 40px;
+
+}
+
+.streetart {
+
+    text-align: left;
+    vertical-align: bottom;
+    padding-right: 40px;
+    padding-bottom: 40px;
+
+}
+
+.cv {
+
+    font-family: "PT Sans";
+    font-size: 0.8em; /* about 10 points */
+    padding-bottom: 3em;
+    margin-right: 30%;
+
+}
+
+.about {
+
+    font-family: "PT Sans";
+    font-size: 0.8em; /* about 10 points */
+    padding-bottom: 3em;
+    margin-right: 30%;
+
+}
+
+.streetart-about {
+
+    font-family: "PT Sans";
+    font-size: 0.8em; /* about 10 points */
+    padding-bottom: 3em;
+    margin-right: 30%;
+
+}
+
+.contact {
+
+    font-family: "PT Sans";
+    font-size: 0.8em; /* about 10 points */
+    padding-bottom: 3em;
+    margin-right: 30%;
+
+}
+
+a:link {
+	color: black;
+	text-decoration: none
+}
+
+a:visited {
+    color: black;
+    text-decoration: none
+}
+
+a.menu_item:hover {
+    color: gray;
+    text-decoration: none
+}
+
+h1 {
+    font-family: "PT Sans";
+    margin-left: 0.2em;
+    padding-top: 0.4em;
+    padding-bottom: 0.6em;
+	font-size: 3em;
+	line-height: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-family: "PT Sans";
+    font-size: 1em; /* roughly 12 point */
+    margin-left: 0.6em;
+}
+
+li.subcategory {
+    font-family: "PT Sans";
+    font-size: 0.8em; /* roughly 10 point */
+    margin-left: 1.6em;
+}
+
+.copyright {
+    font-family: "PT Sans";
+    padding-top: 5em;
+    font-size: 0.6em; /* roughly 8 point */
+    margin-left: 1em;
+    padding-right: 40%;
+}
+
+/*Sets word-wrapping */
+div, textarea, table, td, th, code, pre, samp {
+    word-wrap: break-word;
+}
+
+.left {
+    float: left;
+    position: fixed;
+    height: 4000px;
+    background-color: white
+}
+
+.right {
+	float: right;
+}
+
+.w20 {
+    width: 30%;
+}
+
+.w80 {
+	width: 70%;
+}
