@@ -20,77 +20,9 @@ body {
     overflow-y: auto
 }
 
-img {
-
-    /*max-height: 180px;
-    max-width: 180px; */ 
-    height:auto;
-}
-
-img.full-page {
-
-    /*max-width: 1000px;
-    max-height: 1000px;*/
-    width:auto 
-}
-
-.icon {
-
-    text-align: center;
-    vertical-align: bottom;
-    padding-right: 40px;
-    padding-bottom: 40px;
-
-}
-
-.streetart {
-
-    text-align: left;
-    vertical-align: bottom;
-    padding-right: 40px;
-    padding-bottom: 40px;
-
-}
-
-.cv {
-
-    font-family: "PT Sans";
-    font-size: 0.8em; /* about 10 points */
-    padding-bottom: 3em;
-    margin-right: 30%;
-
-}
-
-.about {
-
-    font-family: "PT Sans";
-    font-size: 0.8em; /* about 10 points */
-    padding-bottom: 3em;
-    margin-right: 30%;
-
-}
-
-.streetart-about {
-
-    font-family: "PT Sans";
-    font-size: 0.8em; /* about 10 points */
-    padding-bottom: 3em;
-    margin-right: 30%;
-
-}
-
-.contact {
-
-    font-family: "PT Sans";
-    font-size: 0.8em; /* about 10 points */
-    padding-bottom: 3em;
-    margin-right: 30%;
-
-}
-
 a:link {
-	color: black;
-	text-decoration: none
+    color: black;
+    text-decoration: none
 }
 
 a:visited {
@@ -98,7 +30,7 @@ a:visited {
     text-decoration: none
 }
 
-a.menu_item:hover {
+a:hover {
     color: gray;
     text-decoration: none
 }
@@ -108,8 +40,8 @@ h1 {
     margin-left: 0.2em;
     padding-top: 0.4em;
     padding-bottom: 0.6em;
-	font-size: 3em;
-	line-height: 1;
+    font-size: 3em;
+    line-height: 1;
 }
 
 ul {
@@ -128,12 +60,53 @@ li.subcategory {
     margin-left: 1.6em;
 }
 
-.copyright {
-    font-family: "PT Sans";
-    padding-top: 5em;
-    font-size: 0.6em; /* roughly 8 point */
-    margin-left: 1em;
-    padding-right: 40%;
+img {
+
+    max-width: 1000px;
+    max-height: 1000px;
+    height:auto;
+}
+
+.image {
+    /*custom image css goes here*/
+}
+
+.menu {
+    /*custom css for ALL menus goes here*/
+    /*use ".name" selector for individual menu css*/
+}
+
+.menu-item {
+    /*custom menu link css goes here*/
+}
+
+.page {
+    /*custom css for ALL pages goes here*/
+    /*use ".name" selector for individual page css*/
+}
+
+.page-link {
+    /*custom page link css goes here*/
+}
+
+.table {
+    /*custom table css goes here*/
+    text-align: center;
+    vertical-align: bottom;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+.text {
+    /*custom text css goes here*/
+}
+
+.text-block {
+    /*custom text block css goes here*/
+}
+
+.web-link {
+    /*custom web link css goes here*/
 }
 
 /*Sets word-wrapping */
@@ -142,6 +115,7 @@ div, textarea, table, td, th, code, pre, samp {
 }
 
 .left {
+    width: 30%;
     float: left;
     position: fixed;
     height: 4000px;
@@ -149,13 +123,18 @@ div, textarea, table, td, th, code, pre, samp {
 }
 
 .right {
+    width: 70%;
 	float: right;
 }
 
-.w20 {
-    width: 30%;
+/******************************/
+/*** CUSTOM CLASSES GO HERE ***/
+/******************************/
+
+.align-left {
+    text-align: left;
 }
 
-.w80 {
-	width: 70%;
+.green {
+    color: green;
 }
